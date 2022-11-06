@@ -4,6 +4,8 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 .containerone
@@ -68,9 +70,11 @@ body {
 
 .topinfo .image {
     flex: 1;
-    color:#E5E7EB;
-    background-color: #787b80;
-    padding: 100px;
+}
+
+.image img {
+    width: 400px;
+    height: auto;
 }
 
 .topinfo .bold {
@@ -79,6 +83,31 @@ body {
     font-weight: 800;
 }
 
+.containertwo {
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+}
+
+.containertwo .cardcontainer {
+    font-size: 18px;
+    font-weight: 100;
+    color: #4f5155;
+    display:flex;
+    margin: 50px 150px 100px 150px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardcontainer .card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    max-width: 250px;
+}
 
 .footer {
     display:flex;
@@ -102,4 +131,9 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
 }
