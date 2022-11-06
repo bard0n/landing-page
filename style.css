@@ -7,6 +7,7 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     max-width: auto;
+
 }
 
 .containerone
@@ -127,6 +128,49 @@ body {
     align-self: flex-end;
     font-weight: bold;
     font-size: 24px;
+}
+
+.containerfour {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:48px;
+    color: #E5E7EB;
+}
+
+.containerfour .bottominfo {
+    background-color: #3882F6;
+    border-radius: 12px;
+    border: none;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.bottominfo .left .bold {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.right button {
+    border-radius: 12px;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    border-style: solid;
+    margin: 20px;
 }
 
 .footer {
