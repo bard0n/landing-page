@@ -109,6 +109,25 @@ body {
     max-width: 250px;
 }
 
+.containerthree {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.containerthree .quote {
+    font-weight:0;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.containerthree .quoter {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
 .footer {
     display:flex;
     align-items: center;
